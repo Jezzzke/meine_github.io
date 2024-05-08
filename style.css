@@ -1,0 +1,39 @@
+.clearfix:after {content: "";display: table;clear: both;}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation */
+nav {
+    height: 80px;
+    background-color: #333;
+}
+
+nav ul li {
+    width: 140px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 75px;
+    font-size: 28px;
+    text-decoration: none;
+    vertical-align: middle;
+    float: left;
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    vertical-align: middle;
+}
+nav ul li a:hover{
+    font-size: 32px;
+    text-shadow: 0 0 10px white;
+    border-bottom: 1px solid whitesmoke;
+}
+nav ul {
+    width: 1040px;
+    margin: 0px auto;
+}
